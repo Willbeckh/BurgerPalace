@@ -1,7 +1,6 @@
-
 body {
     padding: 0;
-    margin: 1em;
+    /* margin: 1em; */
     font-size: 1em; /* fallback font size */
 }
 
@@ -9,10 +8,8 @@ nav {
     overflow: hidden;
 }
 nav ul {
-    margin: 2em;
-    padding: 0;
+    margin: 1em;
     display: flex;
-    /* background-color: green; */
 }
 
 nav ul li {
@@ -25,7 +22,8 @@ nav ul li a {
     text-decoration: none;
     color: #000000;
     font-weight: 600;
-    padding: 2em 2em .8em 1em;
+    padding: 2em 1em .8em 1em;
+    margin: 1em;
     line-height: 1em;
 }
 
@@ -41,23 +39,50 @@ nav ul li.logo span {
     font-size: 2em;
 }
 
-nav ul li a img {
-    height: 1em;
+.logo em {
+    color: #FFC12B;
+}
+nav ul li a img.cart-ico{
+    height: 15px;
 }
 
 nav ul li a:hover {
     border-bottom: #fa8704 2px solid;
 }
 
+#container {
+    background: linear-gradient(112deg, #FFFFFF 60%, #FFC12B 40%);
+
+}
+
+/* landing page section */
 #home {
-    /* text-align: center; */
-    /* position: relative; */
-    height: 100vh   ;
+    margin: 0 2em 0 2em ;
+    display: flex;
+    height: 100vh;
 }
 .home-content {
-    position: absolute;
+    position: relative;
     width: 50%;
+    left: 30px;
 }
+
+.home-content p{
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.home-content span {
+
+}
+
 div.banner-img {
-    float: right;
+    position: relative;
+    left: 10%;
+}
+
+.banner-img img{
+    height: 100%;
 }
