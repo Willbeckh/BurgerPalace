@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    /* margin: 1em; */
+    margin: 0;
     font-size: 1em; /* fallback font size */
     font-family: Arial, Helvetica, sans-serif; /* fallback font */
 }
@@ -61,25 +61,36 @@ nav ul li a:hover {
 #home {
     margin: 0 2em 0 2em ;
     display: flex;
-    height: 100vh;
+    height: 90vh;
 }
 .home-content {
     position: relative;
     width: 50%;
-    left: 30px;
+    top: 10%;
+    left: 60px;
+    padding: 
+    font-family: Poppins;
 }
 
 .home-content p:first-child{
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-size: 3em;
-    line-height: 1em;
 }
 
 .home-content p.description {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #615858;
+    font-size: 22px;
+}
+.order-btn{
+    text-decoration: none;
+    color: #000000;
+    background-color: #FA9529;
+    padding: 18px;
+    border-radius: 50px 50px 0 50px;
+    position: relative;
+    top: 90px;
+    left: 50px;
 }
 
 div.banner-img {
@@ -90,3 +101,4 @@ div.banner-img {
 .banner-img img{
     height: 100%;
 }
+
