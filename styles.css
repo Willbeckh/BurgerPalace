@@ -134,10 +134,9 @@ div.banner-img {
 }
 
 /* menu section */
-/* #cart {
+#cart {
     height: 100vh;
-
-} */
+}
 .menu-title {
     text-align: center;
     font-size: 2em;
@@ -184,4 +183,33 @@ img.cart-icon{
     background-color: #E1EBE6;
     padding: 16px;
     border-radius: 20px;
+}
+
+/* double burger */
+#featured-offer {
+    height: 100vh;
+    width: 90vw;
+    background-color: #edf5f0;
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+.text-container {
+    position: relative;
+    top: 40%;
+    left: 5%;
+    font-family: Poppins, sans-serif;
+}
+.text-container h3 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.burger-images {
+    position: relative;
+
+}
+.burger-images img {
+    height: 50%;
 }
