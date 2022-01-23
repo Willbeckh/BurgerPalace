@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 1em; /* fallback font size */
-    font-family: Poppins; /* fallback font */
+    font-family: Poppins, sans-serif; /* fallback font */
 }
 
 nav {
@@ -53,7 +53,7 @@ nav ul li a:hover {
 }
 
 #container {
-    background: linear-gradient(112deg, #FFFFFF 60%, #FFC12B 45%);
+    background: linear-gradient(112deg, #FFFFFF 62%, #FFC12B 40%);
 
 }
 
@@ -67,9 +67,8 @@ nav ul li a:hover {
     position: relative;
     width: 50%;
     top: 10%;
-    left: 60px;
-    padding: 
-    font-family: Poppins;
+    left: 70px;
+    font-family: Poppins, sans-serif;
 }
 
 .home-content p:first-child{
@@ -93,6 +92,9 @@ nav ul li a:hover {
     border-radius: 50px 50px 0 50px;
     font-weight: bold;
 }
+.order-btn:hover {
+    transform-origin: unset;
+}
 
 div.banner-img {
     position: relative;
@@ -103,3 +105,29 @@ div.banner-img {
     height: 100%;
 }
 
+/* Offers section */
+#offers {
+    /* display: grid; */
+    padding: 20px;
+    background-color: #E1EBE6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    float: left;
+    width: 300px;
+    padding: 20px;
+    margin: 1em;
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+}
+#offers img {
+    max-width: 100%;
+    max-height: 80%;
+}
+i img{
+    color: gold;
+}
