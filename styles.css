@@ -185,3 +185,41 @@ img.cart-icon{
     padding: 16px;
     border-radius: 20px;
 }
+
+/* featured section */
+#item {
+    padding: 20px;
+    background-color: #F7FDF6;
+    height: 90vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.featured-content {
+    width: 50%;
+    position: relative;
+    top: 10%;
+    left: 90px;
+    padding: 20px;
+}
+.featured-content h3{
+    font-weight:bold;
+}
+.double-img img{
+    position: relative;
+    width: 300px;
+}
+.burger-1 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    /* z-index: 1; */
+}
+.burger-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: 2; */
+}
